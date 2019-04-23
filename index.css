@@ -1,3 +1,77 @@
 *{
     text-align: center;
 }
+
+/* lets add some style */
+body{
+    background-color: #757575;
+    color: white;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+header{
+    padding: 10px;
+    background-color: black;
+    border-radius: 0px 25% 25% 0px;
+    text-align: center;
+    animation: text 1s forwards ease-in-out;
+    width: 50%;
+}
+.section{
+    text-align: left;
+    background-color: black;
+    padding: 10px;
+
+}
+#chinese{
+    color: black;
+    text-align: left;
+}
+
+/* idk why its not working lol perame hey whens your bday?? june 25 */
+
+@keyframes text{
+    0%{
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    100%{
+        opacity: 100%;
+        transform: translate(0%);
+    }
+}
+
+
+/* IDK what i made lol for some reason i couldnt be creative lol but you get the point.lol yeah i get the point its ok im not creative at all */
+/* ususally i am but like for osme reason i cant think i  straight right know
+ugh hate it 
+i think you tired bro tbh cuz you been spilling a bit weird lol and not 
+being able to think is also cuz of tiredness trust me i would know lol
+we can finish tomrroe if you want? */
+
+/* Well pretty much ive shown you what we would be doing the hole time. eveyrhting else  are just extensions 
+taht i want to add for you to have an easier time . Plus VS code is mt 
+favorite code editor so i know alot of the ins and outs on it 
+ok well you can add that tomorrow mejor just a quick question tho
+so here ^^^^ you were doing html i can write in java or python and 
+it would work?Sorry i just know those better html i know but i need to 
+freshen up in it*/
+
+/* yeah that fine let me showyou. IMa add a python file  */
+
+/* yes you can do python here and code it and run it know with the extension that i jsut know gave you
+the "run code extensionis for running any programming code inlcuding JAVA. so if
+you have soemting to run it will come out in the output section."
+
+ok awesome sounds goooood 
+ill add more stuff for you tomorrow even some cool themes taht i use that i really like to make it look  different like this one
+*/
+
+
+/* then il show you to chagne the coloes of everything to make it look like something you might like */
+
+
+/* oh also i added this cool chinese lorem thing
+that you are able ot add cool chinese dummy
+text you just clikc "command then shift and then p"
+command+shift+p */
