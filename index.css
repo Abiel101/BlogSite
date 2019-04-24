@@ -1,77 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Lato');
+
 *{
-    text-align: center;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-/* lets add some style */
+
 body{
-    background-color: #757575;
-    color: white;
-    font-weight: normal;
-    font-family: sans-serif;
+  font-family: lato, sans-serif;
 }
+
+/* gradient section also icons */
+#layer{
+background-image: linear-gradient(to top, #000000 0%, #261838 15%, #3a2558 35%, #4e3077 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+}
+.social{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  word-spacing: 20px;
+}
+.social img{
+  opacity: 0.5;
+}
+.social img:hover{
+  opacity: 1;
+}
+
+
+/* header and navigation */
 header{
-    padding: 10px;
-    background-color: black;
-    border-radius: 0px 25% 25% 0px;
-    text-align: center;
-    animation: text 1s forwards ease-in-out;
-    width: 50%;
-}
-.section{
-    text-align: left;
-    background-color: black;
-    padding: 10px;
+  width: 100vw; /*Taking notes later about vh and vw but this is also a way to contorl the height and with of an element.*/
+  height: 100vh;
+  background-image: url(assets/claudio-schwarz-purzlbaum-1534388-unsplash.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  color: white;
 
 }
-#chinese{
-    color: black;
-    text-align: left;
+h1{
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  font-weight: lighter;
+  letter-spacing: 30px;
+  font-family: 'Amatic SC', cursive;
+  position: absolute;
+  top: 28%;
 }
-
-/* idk why its not working lol perame hey whens your bday?? june 25 */
-
-@keyframes text{
-    0%{
-        opacity: 0;
-        transform: translate(-100%);
-    }
-    100%{
-        opacity: 100%;
-        transform: translate(0%);
-    }
+.navigation{
+  /* border: solid white 1px; */
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  word-spacing: 50px;
 }
-
-
-/* IDK what i made lol for some reason i couldnt be creative lol but you get the point.lol yeah i get the point its ok im not creative at all */
-/* ususally i am but like for osme reason i cant think i  straight right know
-ugh hate it 
-i think you tired bro tbh cuz you been spilling a bit weird lol and not 
-being able to think is also cuz of tiredness trust me i would know lol
-we can finish tomrroe if you want? */
-
-/* Well pretty much ive shown you what we would be doing the hole time. eveyrhting else  are just extensions 
-taht i want to add for you to have an easier time . Plus VS code is mt 
-favorite code editor so i know alot of the ins and outs on it 
-ok well you can add that tomorrow mejor just a quick question tho
-so here ^^^^ you were doing html i can write in java or python and 
-it would work?Sorry i just know those better html i know but i need to 
-freshen up in it*/
-
-/* yeah that fine let me showyou. IMa add a python file  */
-
-/* yes you can do python here and code it and run it know with the extension that i jsut know gave you
-the "run code extensionis for running any programming code inlcuding JAVA. so if
-you have soemting to run it will come out in the output section."
-
-ok awesome sounds goooood 
-ill add more stuff for you tomorrow even some cool themes taht i use that i really like to make it look  different like this one
-*/
-
-
-/* then il show you to chagne the coloes of everything to make it look like something you might like */
-
-
-/* oh also i added this cool chinese lorem thing
-that you are able ot add cool chinese dummy
-text you just clikc "command then shift and then p"
-command+shift+p */
+.navigation li, p{
+  display: inline;
+}
+p, a{
+  opacity: 0.5;
+}
+li a{
+  /* border: solid white 1px; */
+  color: white;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: lighter;
+  letter-spacing: 6.75px;
+}
+li a:hover{
+  opacity: 1;
+}
