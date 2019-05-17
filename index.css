@@ -84,7 +84,7 @@ li a:hover{
 /* Main Section Of Blog Website */
 
 main{
-  padding: 386px 198px;
+  padding: 300px 198px;
 }
 .main-section{
   color: white;
@@ -92,21 +92,21 @@ main{
 .text{
   float: right; /* Reason why Im floating this one to the right is because it was easier, I put the .text content in a box and then floated them to the right and that way it moved everything that needed to be to the right all together */
   width: 600px;
-  margin-right: 100px;
 }
 .text div{
   width: 600px;
   height: 300px;
   overflow: hidden;
 }
-.text h2{
+.h2{
   font-size: 35px;
   font-weight: lighter;
   display: inline-block;
-  padding: 0 10px 5px 10px;
+  padding: 0 10px 10px 10px;
   margin-bottom: 15px;
   border-bottom: solid 1px rgba(255, 255, 255, 0.5);
   border-radius: 2px;
+  color: white;
 }
 .text div p{
   opacity: 1;
@@ -124,3 +124,71 @@ main{
 .boxShadow{
   box-shadow: -10px 10px 20px black;
 }
+
+
+
+/* form section */
+
+.form{
+  margin-top: 40em;
+  padding-top: 100px;
+}
+
+.form img{
+  float: right;
+  margin-right: 60px;
+  border-radius: 50%;
+  box-shadow: -5px 10px 20px black;
+}
+.form h2{
+  margin-left: 40px;
+}
+
+input, textarea{
+  display: block;
+  margin: 40px;
+}
+
+input[type="text"]{
+  width: 300px;
+  height: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #424356;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+}
+textarea[id="message"]{
+  width: 600px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #424356;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+input[type="button"]{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #9e5e9e;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+}
+
+
+/* Footer style */
+
+.footer{
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  padding: 50px 198px;
+}
+
