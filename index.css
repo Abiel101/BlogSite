@@ -171,15 +171,26 @@ textarea[id="message"]{
   font-size: 18px;
   font-weight: lighter;
 }
+input[type="text"]:hover, input[type="text"]:focus, 
+textarea[id="message"]:focus, textarea[id="message"]:hover{
+  background-color: aliceblue;
+  color: black;
+}
 
 input[type="button"]{
   width: 100px;
   height: 40px;
+  box-shadow: -1px 1px 5px black;
   border-radius: 20px;
   background-color: #9e5e9e;
   border: none;
   color: white;
   letter-spacing: 2px;
+}
+input[type="button"]:hover{
+  background-color: #ce7cce;
+  cursor: pointer;
+  animation: hover 2s infinite;
 }
 
 
@@ -192,3 +203,23 @@ input[type="button"]{
   padding: 50px 198px;
 }
 
+
+
+
+@keyframes hover{
+  0%{
+    box-shadow: -2px 2px 5px black;
+  }
+  25%{
+    box-shadow: 0px 2px 10px rgb(189, 50, 50);
+  }
+  50%{
+    box-shadow: 2px 2px 20px rgb(33, 75, 211);
+  }
+  75%{
+    box-shadow: 0px -2px 10px rgb(180, 57, 218);
+  }
+  100%{
+    box-shadow: -2px 2px 5px black;
+  }
+}
